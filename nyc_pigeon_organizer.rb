@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     value.each do |vvalue, names|
       names.each do |name|
         pigeon_list[name] ||= {}
-        
+        pigeon_list[name][color_gender_lives] ||= 
       end
     end
   end
